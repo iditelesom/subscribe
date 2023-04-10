@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+
+div, body, html, p {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-image: url(/img/IL-pattern.png); */
+    /* background-image:  linear-gradient(0deg,rgb(248, 248, 248, 0.3),rgb(248, 248, 248,0.3)), url(/img/background-img.png); */
+    background-image:  url(/img/IL-background.png);
+    background-size: 100%;
+    /* background-position: -5% -3%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container__iframe {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 50%;
+    height: 0; */
+    padding: 1.4rem 1.4rem 0;
+    background-color: #fff;
+    /* -webkit-box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.65);
+    -moz-box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.65);
+    box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.65); */
+} 
+
+.iframe {
+    /* padding: 1rem 1.4rem; */
+    /* top: 0; */
+    /* width: 100%;
+    height: 100%; */
+    /* position: absolute; */
+    border: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    width: 95%;
+}
+
+.icon img {
+    width: 64%;
+}
+
+.logo {
+    text-transform:uppercase;
+    color: #4b8269;
+    border: 2px solid #4b8269;
+    border-radius: 35px;
+    padding: 6px 15px;
+    margin-top: 5px;
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-size: 120%;
+}
